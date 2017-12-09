@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0
+}
+
+.bg01 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logoPart {
+  width: 72.66vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -36.33vw;
+  margin-top: 7.8vh
+}
+
+.part2 {
+  position: relative;
+}
+
+.commonWords {
+  font-size: 2.15vh;
+  color: #fff;
+  line-height: 3.8vh;
+  text-indent: 2em;
+  text-align: justify;
+}
+
+.commonWords:first-child+img+p {
+  margin-top: 2vh
+}
+
+.middlePart {
+  width: 74.1vw;
+  margin: 0 auto;
+  padding-top: 18vh
+}
+
+.partTwoCenterImg {
+  width: 100%;
+  margin-top: 3.5vh
+}
+
+.topPart {
+  height: 44.7vh;
+  width: 80.53vw;
+  border: solid 1.8vw rgba(255, 255, 255, .24);
+  margin: 0 auto;
+  margin-top: 10.27vh
+}
+
+.fireWord {
+  width: 76vw;
+  margin: 0 auto;
+  position: relative;
+  top: -27vw;
+  left: 2.3vw;
+}
+
+.centerBigWord {
+  font-size: 3.9vh;
+  color: #fff;
+  font-weight: bold;
+}
+
+.centerMiddleWord {
+  position: relative;
+  top: -13.5vh;
+  text-indent: inherit;
+  width: 72vw;
+  margin: 0 auto;
+  border-top: solid 0.1vh #fff;
+  padding-top: 1.5vh;
+}
+
+.bottomImg {
+  width: 100%;
+  position: absolute;
+  bottom: 0
+}
+
+.lightFireBtn {
+  width: 37.8vw;
+  left: 50%;
+  margin-left: -18.9vw;
+  position: absolute;
+  bottom: 8.8vh
+}
+
+.getRedBagBtn, .toHelpBtn {
+  width: 51vw;
+  left: 50%;
+  margin-left: -25.5vw;
+  position: absolute;
+  bottom: 8.8vh
+}
+
+.toProListPage {
+  display: none
+}
+
+.totleNumPart {
+  color: #fff;
+  font-size: 2.4vh;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 33vh;
+  font-family: '微软雅黑'
+}
+
+.totleNumPart span {
+  font-size: 3vh;
+}
+
+.MusicPlaySound img {
+  width: 9vw;
+  height: 9vw
+}
+
+.MusicPlayProcess.rotate {
+  -webkit-animation: rotate 20s infinite linear;
+  animation: rotate 20s infinite linear;
+}
+
+.MusicPlayProcess.pause {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+}
+
+.MusicPicName.pause {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+.Music {
+  position: fixed;
+  top: 3.3vh;
+  right: 4vw;
+  z-index: 9999999999999
+}
+
+.model {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .6);
+  position: fixed;
+  z-index: 99999999999999;
+  display: none;
+}
+
+.redBag01 {
+  width: 86vw;
+  position: absolute;
+  left: 50vw;
+  margin-left: -43vw;
+  bottom: 22vh;
+}
+
+.phoneNumInput {
+  background-color: #fff;
+  width: 52.3vw;
+  height: 6.63vh;
+  display: block;
+  margin: 0 auto;
+  margin-top: 58.16vh;
+  border-radius: 1vw;
+  position: relative;
+  z-index: 99999999999999;
+  text-align: center;
+  line-height: 6.6vh;
+  color: #333;
+  font-size: 2.5vh
+}
+
+.fireMove {
+  width: 53.3vw;
+  height: 53.3vw;
+  position: relative;
+  top: 1.4vh;
+  margin: 0 auto;
+  background-position: center center;
+  background-size: cover;
+}
+
+.getRedBagTip {
+  display: none;
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 52.5vh;
+  z-index: 99999999999999;
+  position: relative;
+}
+
+.getRedBagTip p {
+  font-size: 2.31vh;
+  text-align: center;
+  color: #fff000;
+  line-height: 3.5vh
+}
+
+.getRedBagTip h1 {
+  color: #fff000;
+  text-align: center;
+  font-size: 7vh;
+  line-height: 11.84vh
+}

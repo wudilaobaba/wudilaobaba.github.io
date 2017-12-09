@@ -1,15 +1,88 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-	<meta charset="UTF-8" />
-	<title>GitPages网页</title>
-	<style>
-		h1{
-			color: skyblue;
-		}
-	</style>
-</head>
-<body>
-	<h1>欢迎欢迎！</h1>
-</body>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<title>振兴扶贫</title>
+	<!--引入pageSlider所需样式表-->
+	<link rel="stylesheet" href="./src/css/pageSlider.css">
+	<!--自己的css-->
+	<link rel="stylesheet" href="./src/css/other.css">
+	<!--引入zepto.js-->
+	<script src="http://cdn.bootcss.com/zepto/1.1.4/zepto.js"></script>
+	<!--引入pageSlider.js文件-->
+	<script src="dist/pageSlider.js"></script>
+
+	<body>
+		<!--DOM结构-->
+		<div class="Music">
+			<div class="MusicPlaySound">
+				<img class="MusicPlayProcess rotate MusicPicButton" src="./src/images/timg.png" />
+			</div>
+			<audio src="./src/music/flxq.m4a" autoplay=""></audio>
+		</div>
+		<div class="model">
+			<img class="redBag01" src="./src/images/redBag01.png" alt="">
+			<input class="phoneNumInput" type="number" name="" value="" placeholder="输入手机号领取红包">
+			<div class="getRedBagTip">
+				<p>恭喜您获得</p>
+				<p>由四川农信与四川蜀信易公司</p>
+				<p>共同赞助的扶贫红包</p>
+				<h1>100<span>元</span></h1>
+			</div>
+			<img class="getRedBagBtn" src="./src/images/getRedBagBtn.png" />
+			<a class="toProListPage" href="./src/subPages/proList.html"><img class="toHelpBtn" src="./src/images/toHelpBtn.png" /></a>
+		</div>
+		<div class="section sec1 bg01 part1" style="background-image: url('./src/images/wei001.jpg');"></div>
+		<div class="section sec2 bg01 part2" style="background-image: url('./src/images/wei002.jpg');">
+			<img class="logoPart" src="./src/images/logo.png" alt="">
+			<div class="middlePart">
+				<p class="commonWords">2015年12月，四川蜀信易电子商务有限公司与四川农信联合打造的农村电商平台“蜀信e•惠生活”上线运营，利用四川农信“深耕三农、服务县域”的资源优势，以“互联网+”思维，以电子商务手段助力国家“乡村振兴”战略。</p>
+				<img class="partTwoCenterImg" src="./src/images/partTwoCenter.jpg" alt="">
+				<p class="commonWords"> “蜀信e•惠生活”秉承四川农信“惠农兴村、扶微助小”的宗旨，深挖四川各地优质农副产品，提供农民所需日常用品，致力于“农产品进城，工业品下乡”，实现“便民、惠民、富民”的中国梦。</p>
+			</div>
+		</div>
+		<div class="section sec3 bg01" style="background-image: url('./src/images/wei002.jpg');">
+			<div class="topPart">
+				<img class="fireWord" src="./src/images/fireWord.png" alt="">
+				<p class="commonWords centerMiddleWord">动动您的手指，参与精准扶贫！ 您的每一份爱心都可以帮助一个贫困家庭！ </p>
+			</div>
+			<img class="bottomImg" src="./src/images/bottom.jpg" alt="">
+		</div>
+		<div class="section sec4 bg01" style="background-image: url('./src/images/lightFire.jpg')">
+			<p class="totleNumPart">
+				已有 <span class="timer count-title" id="count-number" data-to="600" data-speed="5000"></span> 人点亮了火炬
+			</p>
+			<div class="fireMove" style="background-image:url('./src/images/fireImages/fire0.png')"></div>
+			<img class="lightFireBtn" src="./src/images/lightFireBtn.png" />
+		</div>
+		<div class="section sec5 bg01" style="background-color:#FF8ECE;"></div>
+		<div class="section sec6" style="background-color:#ACDCED;">6</div>
+
+		<script>
+			//$(function(){
+			var pageSlider = PageSlider.case({
+				startPage: 1,
+				range: 70
+			});
+			//});
+
+			//a标签无法触发跳转的问题用以下代码
+			// $(".to-form-link>a").on('touchend', function() {
+			// 	location.replace($(this).attr("href"));
+			// });
+			$('#btn').on('touchend', () => {
+				pageSlider.go(1);
+			})
+		</script>
+		<script src="./src/js/jquery.js" charset="utf-8"></script>
+		<script src="./src/js/jump.js" charset="utf-8"></script>
+		<script src="./src/js/music.js" charset="utf-8"></script>
+		<script src="./src/js/common.js" charset="utf-8"></script>
+	</body>
+
 </html>

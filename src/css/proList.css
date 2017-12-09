@@ -1,0 +1,179 @@
+body {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0
+}
+
+.proItem {
+  padding: 2.07vh 2.67vw 0 2.67vw;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.proItem>div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-bottom: 1px rgba(255, 255, 255, .5) solid;
+  padding-bottom: 2.07vh;
+}
+
+.proItem:last-child>div {
+  border-bottom: none
+}
+
+.proImg {
+  width: 25.2vw;
+  height: 25.2vw;
+}
+
+.proInfo {
+  padding-left: 2.67vw;
+  color: #fff;
+  position: relative;
+  height: 25.2vw;
+}
+
+.proInfo p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 2.2vh;
+}
+
+.proInfo .zone {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  line-height: 3.65vh;
+  font-size: 1.82vh;
+}
+
+.price {
+  position: absolute;
+  bottom: 0;
+  left: 2.67vw;
+  font-size: 2.49vh;
+}
+
+.price span {
+  font-size: 1.82vh;
+}
+
+.shopCar {
+  width: 10.67vw;
+  height: 10.67vw;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0
+}
+
+.bottomBtn {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 8.29vh;
+  background-color: #fdfafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.pricePart {
+  width: 61vw;
+  padding: 0.99vh 2.27vw;
+}
+
+.payBtn {
+  width: 39vw;
+  height: 8.29vh;
+  line-height: 8.29vh;
+  background-color: #fd4700;
+  text-align: center;
+  color: #fff;
+  font-size: 2.79vh;
+}
+
+.proBox {
+  padding-bottom: 8.29vh;
+}
+
+.pricePart p {
+  font-size: 1.99vh;
+  color: #333;
+  line-height: 3.23vh
+}
+
+.pricePart span {
+  color: #ff7200
+}
+
+.pricePart span.number {
+  font-size: 2.79vh
+}
+
+.model {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: rgba(0, 0, 0, .6);
+  position: fixed;
+  z-index: 99999999999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tipBox {
+  width: 75.47vw;
+  height: 31.65vh;
+  background-color: #fff;
+  border-radius: 1.6vw;
+}
+
+.tipBox p {
+  height: 23.7vh;
+  line-height: 23.7vh;
+  text-align: center;
+  font-size: 2.49vh;
+}
+
+.loginBtn {
+  text-align: center;
+  display: block;
+  border-top: solid #dbdbdb 0.08vh;
+  color: #178e0e;
+  font-size: 2.49vh;
+  line-height: 8vh;
+  width: 75.47vw
+}

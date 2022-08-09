@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./qq.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.top-world{
+    height: 22.5px;
+    position: relative;
+    top: 203px;
+    left: 64px;
+    overflow: hidden;
+    width: 300px;
+}
+.inner{
+    position: relative;
+    left: 0;
+    width: 10000px;
+}
+.tiao{
+    margin: 0 auto;
+    width: 80%;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 680px;
+    left: 40px;
+}
+.inner-tiao{
+    width: 10000px;
+    height: 10px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-image: url("./wj.jpg");
+    background-size: contain;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+}
+.cu{
+    color: #4458dc;
+    font-size: 27px;
+
+}
+.timer{
+    font-size: 24px;
+    color: #3668d9;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.bottoms{
+    position: absolute;
+    top: 738px;
+    left: 46px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.update{
+    position: absolute;
+    top: 766px;
+    left: 80px;
+    font-size: 13px;
+    color: #93d1b9;
+}
+
+.user{
+    position: absolute;
+    top: 270px;
+    font-size: 28px;
+    font-weight: bold;
+    left: 44px;
+}
+.id{
+    position: absolute;
+    top: 306px;
+    font-size: 16px;
+    left: 44px;
+    color: #abb3bc;
+}
+
+.click-btn{
+    position: absolute;
+    top: 820px;
+    left: 44px;
+    width: 67px;
+    height: 67px;
+}
+.topClick{
+    position: absolute;
+    top: 20px;
+    height: 200px;
+    width: 100%;
+}
+
+.time1{
+    position: relative;
+    top: 238px;
+    left: 106px;
+    padding-left: 4px;
+}
+.time2{
+    position: relative;
+    top: 304px;
+    left: 106px;
+    padding-left: 4px;
+}
+.time3{
+    position: relative;
+    top: 387px;
+    left: 106px;
+    padding-left: 4px;
+}
+.time4{
+    position: relative;
+    top: 217px;
+    left: 106px;
+    padding-left: 4px;
+}
+.time5{
+    position: relative;
+    top: 550px;
+    left: 106px;
+    padding-left: 4px;
+}
+.time6{
+    position: relative;
+    top: 632px;
+    left: 106px;
+    padding-left: 4px;
+}
+
+
+
+
+
+
+
+/*.time{*/
+/*    top: 335px;*/
+/*}*/
+/*.inner{*/
+/*    margin-top: -30px;*/
+/*}*/
+/*.top-world{*/
+/*    top: 200px;*/
+/*}*/
+/*.tiao{*/
+/*    top: 660px*/
+/*}*/
+/*.bottoms{*/
+/*    top: 708px*/
+/*}*/
+/*.update{*/
+/*    top:736px*/
+/*}*/

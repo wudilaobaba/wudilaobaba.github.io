@@ -58,11 +58,14 @@ function xxx(typing) {
   document.getElementsByClassName('update')[0].style.display = typing;
 }
 
-if(!isMe){
-  document.getElementsByClassName('time')[0].style.top = '335px';
-  document.getElementsByClassName('inner')[0].style.marginTop = '-30px';
-  document.getElementsByClassName('top-world')[0].style.top = '200px';
-  document.getElementsByClassName('tiao')[0].style.top = '660px';
-  document.getElementsByClassName('bottoms')[0].style.top = '708px';
-  document.getElementsByClassName('update')[0].style.top = '736px';
-}
+document.getElementsByClassName('fx-span')[0].innerHTML = `${((new Date().getMonth()+1)+"").padStart(2,'0')}/${new Date().getDate()} ${new Date().getHours()}时`
+
+
+// if(!isMe){
+//   document.getElementsByClassName('time')[0].style.top = '385px';
+//   document.getElementsByClassName('inner')[0].style.marginTop = '-20px';
+//   document.getElementsByClassName('top-world')[0].style.top = '200px';
+//   document.getElementsByClassName('tiao')[0].style.top = '660px';
+//   document.getElementsByClassName('bottoms')[0].style.top = '708px';
+//   document.getElementsByClassName('update')[0].style.top = '736px';
+// }

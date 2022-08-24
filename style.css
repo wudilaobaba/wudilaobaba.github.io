@@ -137,7 +137,22 @@ body{
     padding-left: 4px;
 }
 
-
+.fx{
+    width: 164px;
+    height: 82px;
+    background-image: url("./fx.jpg");
+    background-size: contain;
+    position: absolute;
+    top: 710px;
+    left: 209px;
+}
+.fx-span{
+    color: #FFFFFF;
+    font-size: 14px;
+    position: absolute;
+    top: 29px;
+    left: 6px;
+}
 
 
 
